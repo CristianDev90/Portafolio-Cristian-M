@@ -1,0 +1,315 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Cristian M — Freelance Web &amp; App Developer</title>
+  <meta name="description" id="meta-description" content="Freelance web developer in Colombia. I build modern websites, online stores and mobile apps for small businesses and entrepreneurs.">
+  <meta name="theme-color" content="#070d18">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" id="og-title" content="Cristian M — Freelance Web &amp; App Developer">
+  <meta property="og:description" id="og-description" content="Freelance web developer in Colombia. I build modern websites, online stores and mobile apps for small businesses and entrepreneurs.">
+  <!-- TODO: replace with an absolute URL (including domain) once the site is deployed. -->
+  <meta property="og:image" content="assets/images/og-cover.png">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="es_CO">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/translations.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to main content</a>
+
+  <!-- ============ Header ============ -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">
+        <span class="brand-mark" aria-hidden="true">CM</span>
+        <span class="brand-name">Cristian M</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu" data-label-open="Open menu" data-label-close="Close menu">
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Main navigation" data-i18n-aria-label="a11y.mainNav">
+        <ul class="nav-list">
+          <li><a href="#proyectos" data-i18n="nav.projects">Projects</a></li>
+          <li><a href="#servicios" data-i18n="nav.services">Services</a></li>
+          <li><a href="#sobre-mi" data-i18n="nav.about">About</a></li>
+          <li><a href="#contacto" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+
+        <div class="lang-switch" role="group" aria-label="Language" data-i18n-aria-label="a11y.langGroup">
+          <button class="lang-btn" type="button" data-lang="es" lang="es" aria-pressed="false">ES</button>
+          <span class="lang-sep" aria-hidden="true">|</span>
+          <button class="lang-btn" type="button" data-lang="en" lang="en" aria-pressed="true">EN</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+
+    <!-- ============ Hero ============ -->
+    <section id="inicio" class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Freelance web developer</p>
+          <h1 id="hero-title">
+            <span data-i18n="hero.titleStart">Websites, apps and online stores for your</span>
+            <span class="highlight" data-i18n="hero.titleHighlight">business</span>
+          </h1>
+          <p class="lead" data-i18n="hero.subtitle">Modern, responsive websites, online stores and mobile apps for small businesses, entrepreneurs and independent professionals.</p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#proyectos">
+              <span data-i18n="hero.ctaProjects">View projects</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </a>
+            <!-- Placeholder: replace PLACEHOLDER_WHATSAPP with the real number (international format, no + or spaces). -->
+            <a class="btn btn-secondary" href="https://wa.me/573145056080" target="_blank" rel="noopener noreferrer">
+              <span data-i18n="hero.ctaWhatsapp">Message me on WhatsApp</span>
+              <span class="visually-hidden" data-i18n="a11y.newTab">(opens in a new tab)</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-portrait">
+          <img src="assets/images/cristian-portrait.jpg" alt="Portrait of Cristian M" data-i18n-alt="hero.portraitAlt" width="900" height="900" fetchpriority="high" decoding="async">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Projects ============ -->
+    <section id="proyectos" class="section" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="projects.eyebrow">My projects</p>
+          <h2 id="projects-title" data-i18n="projects.title">Featured Project</h2>
+        </div>
+
+        <article class="featured-project">
+          <div class="featured-content">
+            <div class="project-title-row">
+              <img class="project-logo" src="assets/images/vitria-logo.svg" alt="" width="1254" height="1254" decoding="async">
+              <h3 data-i18n="projects.vitria.title">Vitria</h3>
+            </div>
+            <p class="project-kicker" data-i18n="projects.vitria.kicker">Product catalog &amp; orders</p>
+            <p class="badge" data-i18n="projects.vitria.badge">Personal project</p>
+            <p data-i18n="projects.vitria.description">A platform for small businesses to showcase their product catalog and manage orders, with customizable options per product such as flavors or sizes.</p>
+            <ul class="tag-list">
+              <li data-i18n="tags.web">Web</li>
+              <li data-i18n="tags.catalog">Catalog</li>
+              <li data-i18n="tags.orders">Orders</li>
+            </ul>
+            <!-- Optional: add the project link here when it is available. -->
+          </div>
+
+          <div class="featured-visual">
+            <div class="device-glow" aria-hidden="true"></div>
+            <div class="laptop">
+              <div class="laptop-screen">
+                <img src="assets/images/project-vitria.png" alt="Screenshot of the Vitria project" data-i18n-alt="projects.vitria.alt" width="1359" height="597" decoding="async">
+              </div>
+              <div class="laptop-base" aria-hidden="true"></div>
+            </div>
+            <div class="phone" aria-hidden="true">
+              <div class="phone-screen">
+                <img src="assets/images/project-vitria.png" alt="" width="1359" height="597" decoding="async">
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <p class="more-label" data-i18n="projects.more">More projects</p>
+
+        <article class="project-compact">
+          <div class="compact-media">
+            <div class="browser-frame">
+              <div class="browser-bar">
+                <span class="browser-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+                <span class="browser-label" data-i18n="projects.store.previewLabel">Project preview</span>
+              </div>
+              <img src="assets/images/project-store.jpg" alt="Captura de la tienda Vitria" data-i18n-alt="projects.store.alt" width="1200" height="600" decoding="async">
+            </div>
+          </div>
+          <div class="compact-content">
+            <p class="badge" data-i18n="projects.store.badge">Sample project</p>
+            <h3 data-i18n="projects.store.title">Sample online store</h3>
+            <p data-i18n="projects.store.description">A sample online catalog for a small business, created to show how an online store can look and work.</p>
+            <ul class="tag-list">
+              <li data-i18n="tags.web">Web</li>
+              <li data-i18n="tags.catalog">Catalog</li>
+              <li data-i18n="tags.demo">Demo</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ Services ============ -->
+    <section id="servicios" class="section section-alt" aria-labelledby="services-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow" data-i18n="services.eyebrow">Services</p>
+          <h2 id="services-title" data-i18n="services.title">What I Do</h2>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-item">
+            <span class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="13" rx="2"></rect>
+                <path d="M8 21h8M12 17v4"></path>
+              </svg>
+            </span>
+            <h3 data-i18n="services.web.title">Websites</h3>
+            <p data-i18n="services.web.description">Business websites, landing pages and personal brands. Modern design and responsive on all devices.</p>
+          </article>
+
+          <article class="service-item">
+            <span class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 4h2l2.4 10.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.5L21 8H6"></path>
+                <circle cx="10" cy="20" r="1.2"></circle>
+                <circle cx="17.5" cy="20" r="1.2"></circle>
+              </svg>
+            </span>
+            <h3 data-i18n="services.stores.title">Online stores</h3>
+            <p data-i18n="services.stores.description">Online stores and product catalogs with easy management and a great user experience.</p>
+          </article>
+
+          <article class="service-item">
+            <span class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="7" y="2.5" width="10" height="19" rx="2.5"></rect>
+                <path d="M10.5 5.5h3M11 18.5h2"></path>
+              </svg>
+            </span>
+            <h3 data-i18n="services.apps.title">Mobile apps</h3>
+            <p data-i18n="services.apps.description">Cross-platform mobile apps built with Flutter and Firebase for iOS and Android.</p>
+          </article>
+
+          <article class="service-item">
+            <span class="service-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="3"></circle>
+                <path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"></path>
+              </svg>
+            </span>
+            <h3 data-i18n="services.maintenance.title">Maintenance</h3>
+            <p data-i18n="services.maintenance.description">Keep your website or app secure, updated and running smoothly.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ About ============ -->
+    <section id="sobre-mi" class="section about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <figure class="about-photo">
+          <img src="assets/images/cristian-portrait.jpg" alt="Portrait of Cristian M" data-i18n-alt="about.photoAlt" width="900" height="900" decoding="async">
+        </figure>
+
+        <div class="about-text">
+          <p class="eyebrow" data-i18n="about.eyebrow">About me</p>
+          <h2 id="about-title" data-i18n="about.title">Hi, I'm Cristian M</h2>
+          <p data-i18n="about.p1">I'm a web developer from Colombia and a systems engineering student. I build websites and apps for small businesses and entrepreneurs.</p>
+          <p data-i18n="about.p2">I work with Flutter and Firebase, and I also run my own online business, so I know firsthand what it takes to sell and support customers online.</p>
+          <p data-i18n="about.p3">I focus on clean code, modern design and user-friendly experiences.</p>
+        </div>
+
+        <ul class="about-features">
+          <li>
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m8 8-4 4 4 4M16 8l4 4-4 4M14 4l-4 16"/></svg>
+            </span>
+            <span data-i18n="about.feature1">Clean code</span>
+          </li>
+          <li>
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="13" rx="2"></rect><path d="M8 21h8M12 17v4"></path></svg>
+            </span>
+            <span data-i18n="about.feature2">Responsive design</span>
+          </li>
+          <li>
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m12 2 9 5-9 5-9-5 9-5z"></path><path d="m3 12 9 5 9-5M3 17l9 5 9-5"></path></svg>
+            </span>
+            <span data-i18n="about.feature3">Flutter &amp; Firebase</span>
+          </li>
+          <li>
+            <span class="feature-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+            </span>
+            <span data-i18n="about.feature4">Always learning</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ Contact ============ -->
+    <section id="contacto" class="section contact" aria-labelledby="contact-title">
+      <div class="container contact-inner">
+        <p class="eyebrow" data-i18n="contact.eyebrow">Get in touch</p>
+        <h2 id="contact-title" data-i18n="contact.title">Let's work together</h2>
+        <p class="contact-text" data-i18n="contact.text">Have a project in mind? Tell me what you need and I'll get back to you.</p>
+
+        <div class="contact-actions">
+          <!-- Placeholder: replace PLACEHOLDER_WHATSAPP with the real number (international format, no + or spaces). -->
+          <a class="btn btn-whatsapp" href="https://wa.me/573145056080" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 8.8 8.8 0 0 1-3.8-.9L3 21l2-5a8.4 8.4 0 1 1 16-4.5z"></path>
+              <path d="M8.5 9.5c.3 2.2 2.3 4.2 4.5 4.5"></path>
+            </svg>
+            <span data-i18n="contact.whatsapp">WhatsApp</span>
+            <span class="visually-hidden" data-i18n="a11y.newTab">(opens in a new tab)</span>
+          </a>
+
+          <!-- Placeholder: replace PLACEHOLDER_EMAIL with the real email address. -->
+          <a class="btn btn-secondary" href="mailto:cristian.asepulveda08@gmail.com" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+              <path d="m4 7 8 6 8-6"></path>
+            </svg>
+            <span data-i18n="contact.email">Email me</span><span class="visually-hidden" data-i18n="a11y.newTab">(opens in a new tab)</span>
+          </a>
+        </div>
+
+        <p class="placeholder-note" data-i18n="contact.placeholderNote">Placeholders to replace before publishing: WhatsApp PLACEHOLDER_WHATSAPP · Email PLACEHOLDER_EMAIL.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ Footer ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand brand-footer" href="#top">
+        <span class="brand-name">Cristian <span class="brand-accent">M</span></span>
+      </a>
+
+      <p class="footer-copy">© <span id="year">2026</span> Cristian M. <span data-i18n="footer.rights">All rights reserved.</span></p>
+
+      <a class="back-to-top" href="#top">
+        <span data-i18n="footer.backToTop">Back to top</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
+
