@@ -1,0 +1,14 @@
+# Archivos temporales y de debug
+*.log
+temp*
+fix-email.js
+add-span.js
+a11y-check.js
+logo-preview.js
+resize-store.js
+i18n-test.js
+keys-test.js
+header-es.js
+
+# Datos sensibles (si agregan después)
+*.env
